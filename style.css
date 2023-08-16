@@ -16,7 +16,7 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background:#d36969;
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
@@ -35,11 +35,10 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .skills, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -73,7 +72,7 @@ section .title::after{
     font-size: 20px;
     color: crimson;
     padding: 0 5px;
-    background: #fff;
+    background: #ffffff;
     transform: translateX(-50%);
 }
 
@@ -96,7 +95,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #cf7878;
     font-size: 35px;
     font-weight: 600;
 }
@@ -123,12 +122,12 @@ section .title::after{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #ffffff;
 }
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: #180000;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -142,7 +141,7 @@ section .title::after{
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: #ffffff;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -167,7 +166,7 @@ section .title::after{
     display: flex;
     background: url("pic/background.png") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: #f7f7f7;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -181,6 +180,7 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
+    color:#b21f1f;
     font-size: 27px;
 }
 .home .home-content .text-2{
@@ -189,6 +189,7 @@ section .title::after{
     margin-left: -3px;
 }
 .home .home-content .text-3{
+    color:#b21f1f;
     font-size: 40px;
     margin: 5px 0;
 }
@@ -257,7 +258,7 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: lightgrey;
+    background: rgb(255, 255, 255);
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -266,7 +267,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: rgb(165, 0, 0);
 }
 .skills-content .right .html::before{
     width: 80%;
